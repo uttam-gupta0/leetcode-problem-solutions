@@ -28,16 +28,6 @@ Use the **Two Pointer** technique.
 6. If either is a palindrome, return `true`.
 
 ---
-
-## Important Code
-
-```java
-if (arr[left] != arr[right]) {
-    return isPalindrome(arr, left + 1, right)
-        || isPalindrome(arr, left, right - 1);
-}
-
----
 ## Complexity
 
 - **Time:** `O(n)`
@@ -53,3 +43,13 @@ if (arr[left] != arr[right]) {
   isPalindrome(arr, left + 1, right)
   ||
   isPalindrome(arr, left, right - 1)
+
+## Important Code
+
+```java
+if (arr[left] != arr[right]) {
+    return isPalindrome(arr, left + 1, right)
+        || isPalindrome(arr, left, right - 1);
+}
+
+
