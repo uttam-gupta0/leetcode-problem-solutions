@@ -37,11 +37,13 @@ if (arr[left] != arr[right]) {
         || isPalindrome(arr, left, right - 1);
 }
 
+---
 ## Complexity
 
 - **Time:** `O(n)`
 - **Space:** `O(n)` for the character array.
 
+---
 ## Notes
 
 - At most **one character** can be deleted.
