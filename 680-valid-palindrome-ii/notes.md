@@ -36,3 +36,18 @@ if (arr[left] != arr[right]) {
     return isPalindrome(arr, left + 1, right)
         || isPalindrome(arr, left, right - 1);
 }
+
+## Complexity
+
+- **Time:** `O(n)`
+- **Space:** `O(n)` for the character array.
+
+## Notes
+
+- At most **one character** can be deleted.
+- Main pattern: **Two Pointers + One Mismatch Allowed**
+- At the first mismatch, try both choices:
+  ```java
+  isPalindrome(arr, left + 1, right)
+  ||
+  isPalindrome(arr, left, right - 1)
