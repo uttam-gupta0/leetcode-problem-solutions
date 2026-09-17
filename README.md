@@ -1,7 +1,7 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 9 (Easy: 3, Medium: 6, Hard: 0)
+Solved: 10 (Easy: 3, Medium: 6, Hard: 0)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
@@ -14,4 +14,5 @@ Solved: 9 (Easy: 3, Medium: 6, Hard: 0)
 | 1 | [Two Sum](1-two-sum/) | Easy | 2026-09-17 |
 | 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-09-17 |
 | 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-09-17 |
+|  | [squares-of-a-sorted-array](squares-of-a-sorted-array/) | Unknown | 2026-09-17 |
 <!-- LEETHUB:TABLE:END -->
