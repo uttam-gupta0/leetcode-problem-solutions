@@ -43,15 +43,17 @@ Use the **Two Pointer** technique.
 
 
 ## Notes
-Area formula:
+- Area formula:
 ```java
-Area = min(leftHeight, rightHeight) × (right - left)
-The shorter line decides the water height.
-Always move the pointer with the smaller height.
-Moving the taller pointer cannot increase the area because the width becomes smaller while the shorter height still limits the container.
-Main pattern: Two Pointers
-Spot It Instantly: If the problem asks for maximum area between two positions/lines → think Two Pointers.
+- Area = min(leftHeight, rightHeight) × (right - left)
+- The shorter line decides the water height.
+- Always move the pointer with the smaller height.
+- Moving the taller pointer cannot increase the area because the width becomes smaller while the shorter height still      limits the container.
+- Main pattern: Two Pointers
+- Spot It Instantly: If the problem asks for maximum area between two positions/lines → think Two Pointers.
+```
 **Important Code**
+
 ```java
 int length = Math.min(height[left], height[right]);
 
