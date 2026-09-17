@@ -47,7 +47,7 @@ Use the **Two Pointer** technique.
 - Area formula:
   ```text
   Area = min(leftHeight, rightHeight) × (right - left)
-1. The shorter line decides the water height.
-2. Always move the pointer with the smaller height.
-3. Moving the taller pointer cannot increase the area because the width becomes smaller while the shorter height still limits the container.
-4. Main pattern: **Two Pointers**
+- The shorter line decides the water height.
+- Always move the pointer with the smaller height.
+- Moving the taller pointer cannot increase the area because the width becomes smaller while the shorter height still limits the container.
+- Main pattern: **Two Pointers**
