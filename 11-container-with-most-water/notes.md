@@ -1,7 +1,3 @@
-```
-```
-
-````
 # Container With Most Water
 
 ## Problem
@@ -22,15 +18,9 @@ Use the **Two Pointer** technique.
 ````
 
 3. Calculate the width:
-   ```
-   ```
-   ```
    int width = right - left;
    ```
 4. Calculate the area:
-   ```
-   ```
-   ```
    int area = width * length;
    ```
 5.  Store the maximum area. 
@@ -42,11 +32,6 @@ Use the **Two Pointer** technique.
 ---
 
 ## Important Code
-
-```
-```
-
-```
 int length = Math.min(height[left], height[right]);
 
 int width = right - left;
@@ -77,9 +62,6 @@ else {
 ## Notes
 
 - Area formula:
-  ```
-  ```
-  ```
   Area = min(leftHeight, rightHeight) × (right - left)
   ```
 -  The **shorter line decides the water height**. 
@@ -88,6 +70,3 @@ else {
 -  Main pattern: **Two Pointers** 
 - **Spot It Instantly:** If the problem asks for maximum area between two positions/lines → think **Two Pointers**.
 
-
-
-give all these in single md code so i can directly paste in my github repo read.md file
