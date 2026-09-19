@@ -4,7 +4,6 @@
 Given an integer array `nums` sorted in non-decreasing order, return an array of the squares of each number, also sorted in non-decreasing order.
 
 ---
-
 ## Approach
 
 1. Create a new array `result` with the same size as `nums`.
