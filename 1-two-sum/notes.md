@@ -1,5 +1,4 @@
 # Approach
-
 1. Create a `HashMap` to store:
    - **Key** → array value
    - **Value** → index of that value
