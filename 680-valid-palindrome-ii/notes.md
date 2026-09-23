@@ -35,7 +35,6 @@ Use the **Two Pointer** technique.
 
 ---
 ## Notes
-
 - At most **one character** can be deleted.
 - Main pattern: **Two Pointers + One Mismatch Allowed**
 - At the first mismatch, try both choices:
