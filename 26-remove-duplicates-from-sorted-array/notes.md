@@ -1,18 +1,79 @@
-# 26. Remove Duplicates from Sorted Array
-## Approach
-Two-pointer / in-place overwrite technique, possible because the array is already sorted so duplicates are always adjacent.
+# Remove Duplicates from Sorted Array
 
-- `k` tracks the position where the next unique element should be written (starts at `1`, since `nums[0]` is always unique).
-- `i` scans the array from index `1` onward.
-- Whenever `nums[i]` differs from `nums[i - 1]`, it's a new unique value, so it's copied to `nums[k]` and `k` is incremented.
-- Duplicate values are simply skipped over — no shifting or extra array needed.
-- `k` at the end equals the count of unique elements, which is what the problem asks the function to return.
+## Problem
+
+Remove duplicates from a **sorted array** in-place so that each element appears only once.
+
+Return the number `k` of unique elements.
+
+---
+
+## Approach
+
+Use the **Two Pointer** technique.
+
+1. Since the array is already **sorted**, duplicate elements will always be next to each other.
+
+2. Set:
+   - `k = 1` → position where the next unique element will be stored.
+   - `i = 1` → scans the array.
+
+3. Compare the current element with the previous element:
+```java
+   nums[i] != nums[i - 1]
+```
+
+4. If they are different:
+   - The current element is unique.
+   - Store it at index `k`.
+   - Increase `k`.
+
+```java
+   nums[k] = nums[i];
+   k++;
+```
+
+5. If they are equal:
+   - The current element is a duplicate.
+   - Skip it.
+
+6. Finally, return `k`.
+
+---
 
 ## Complexity
-- **Time:** `O(n)` — single pass through the array.
-- **Space:** `O(1)` — modifies the array in place, no auxiliary data structures.
+
+- **Time:** `O(n)`
+- **Space:** `O(1)`
+
+---
 
 ## Notes
-- Relies on the array being sorted; doesn't work as-is on unsorted input.
-- Elements beyond index `k - 1` are left in an undefined state, per the problem's requirements — only the first `k` elements matter.
-- Same pattern generalizes to "remove duplicates, allow at most 2 occurrences" (LeetCode 80) by comparing against `nums[k - 2]` instead of `nums[k - 1]`.
+
+- Main pattern: Two Pointers
+- The array must be sorted.
+- `i` is the scanner pointer.
+- `k` is the writer pointer.
+- The first element is always unique.
+- Therefore:
+
+```java
+  int k = 1;
+```
+
+- Compare:
+
+```java
+  nums[i] != nums[i - 1]
+```
+
+- If unique:
+
+```java
+  nums[k] = nums[i];
+  k++;
+```
+
+- If duplicate → simply skip it.
+- Return `k`, not the modified array.
+- The problem requires in-place modification.
