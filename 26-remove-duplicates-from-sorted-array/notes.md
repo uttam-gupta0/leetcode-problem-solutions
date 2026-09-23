@@ -1,65 +1,18 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+# 26. Remove Duplicates from Sorted Array
+## Approach
+Two-pointer / in-place overwrite technique, possible because the array is already sorted so duplicates are always adjacent.
 
-public class RemoveDuplicates26 {
+- `k` tracks the position where the next unique element should be written (starts at `1`, since `nums[0]` is always unique).
+- `i` scans the array from index `1` onward.
+- Whenever `nums[i]` differs from `nums[i - 1]`, it's a new unique value, so it's copied to `nums[k]` and `k` is incremented.
+- Duplicate values are simply skipped over — no shifting or extra array needed.
+- `k` at the end equals the count of unique elements, which is what the problem asks the function to return.
 
-    public int removeDuplicates(int[] nums) {
+## Complexity
+- **Time:** `O(n)` — single pass through the array.
+- **Space:** `O(1)` — modifies the array in place, no auxiliary data structures.
 
-        if (nums.length == 0) {
-            return 0;
-        }
-
-        int k = 1;
-
-        for (int i = 1; i < nums.length; i++) {
-
-            if (nums[i] != nums[i - 1]) {
-                nums[k] = nums[i];
-                k++;
-            }
-        }
-
-        return k;
-    }
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        ArrayList<Integer> list = new ArrayList<>();
-
-        System.out.println("Enter sorted numbers (-1 to stop):");
-
-        while (true) {
-
-            int value = sc.nextInt();
-
-            if (value == -1) {
-                break;
-            }
-
-            list.add(value);
-        }
-
-        // Convert ArrayList → int[]
-        int[] nums = new int[list.size()];
-
-        for (int i = 0; i < list.size(); i++) {
-            nums[i] = list.get(i);
-        }
-
-        RemoveDuplicates26 obj = new RemoveDuplicates26();
-
-        int k = obj.removeDuplicates(nums);
-
-        System.out.println("Unique elements: " + k);
-
-        System.out.print("Array after removing duplicates: ");
-
-        for (int i = 0; i < k; i++) {
-            System.out.print(nums[i] + " ");
-        }
-
-        sc.close();
-    }
-}
+## Notes
+- Relies on the array being sorted; doesn't work as-is on unsorted input.
+- Elements beyond index `k - 1` are left in an undefined state, per the problem's requirements — only the first `k` elements matter.
+- Same pattern generalizes to "remove duplicates, allow at most 2 occurrences" (LeetCode 80) by comparing against `nums[k - 2]` instead of `nums[k - 1]`.
