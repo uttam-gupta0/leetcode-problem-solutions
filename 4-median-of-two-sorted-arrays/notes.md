@@ -4,6 +4,7 @@
 
 ## Approach
 
+
 Use **Binary Search + Partition**.
 
 The main idea is to divide both sorted arrays into a **left half** and a **right half**.
