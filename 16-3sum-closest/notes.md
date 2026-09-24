@@ -1,5 +1,6 @@
 # Approach
 
+
 1. Sort the array.
 2. Fix one element using `i`.
 3. Use two pointers:
