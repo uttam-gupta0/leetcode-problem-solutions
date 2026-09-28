@@ -1,11 +1,10 @@
-// 5 ms | 46.2 MB
+// 5 ms | 46.1 MB
 class Solution {
     public boolean isPalindrome(int x) {
 
         if (x < 0) {
             return false;
         }
-
         int org = x;
         int rev = 0;
 
