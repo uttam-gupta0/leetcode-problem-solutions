@@ -1,7 +1,7 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 25 (Easy: 11, Medium: 12, Hard: 2)
+Solved: 26 (Easy: 11, Medium: 13, Hard: 2)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
@@ -12,6 +12,7 @@ Solved: 25 (Easy: 11, Medium: 12, Hard: 2)
 | 2109 | [Adding Spaces to a String](2109-adding-spaces-to-a-string/) | Medium | 2026-10-30 |
 | 11 | [Container With Most Water](11-container-with-most-water/) | Medium | 2026-10-30 |
 | 2824 | [Count Pairs Whose Sum is Less than Target](2824-count-pairs-whose-sum-is-less-than-target/) | Easy | 2026-10-30 |
+| 4045 | [Count Robot Groups](4045-count-robot-groups/) | Medium | 2026-10-30 |
 | 1732 | [Find the Highest Altitude](1732-find-the-highest-altitude/) | Easy | 2026-10-30 |
 | 41 | [First Missing Positive](41-first-missing-positive/) | Hard | 2026-10-30 |
 | 349 | [Intersection of Two Arrays](349-intersection-of-two-arrays/) | Easy | 2026-10-30 |
@@ -29,5 +30,5 @@ Solved: 25 (Easy: 11, Medium: 12, Hard: 2)
 | 1 | [Two Sum](1-two-sum/) | Easy | 2026-10-30 |
 | 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-10-30 |
 | 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-10-30 |
-| 4045 | [Count Robot Groups](4045-count-robot-groups/) | Medium | 2026-10-30 |
+| 442 | [Find All Duplicates in an Array](442-find-all-duplicates-in-an-array/) | Medium | 2026-10-30 |
 <!-- LEETHUB:TABLE:END -->
