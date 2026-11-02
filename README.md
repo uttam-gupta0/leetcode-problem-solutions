@@ -1,7 +1,7 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 27 (Easy: 11, Medium: 14, Hard: 2)
+Solved: 28 (Easy: 12, Medium: 14, Hard: 2)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
@@ -18,6 +18,7 @@ Solved: 27 (Easy: 11, Medium: 14, Hard: 2)
 | 41 | [First Missing Positive](41-first-missing-positive/) | Hard | 2026-11-02 |
 | 349 | [Intersection of Two Arrays](349-intersection-of-two-arrays/) | Easy | 2026-11-02 |
 | 392 | [Is Subsequence](392-is-subsequence/) | Easy | 2026-11-02 |
+| 1679 | [Max Number of K-Sum Pairs](1679-max-number-of-k-sum-pairs/) | Medium | 2026-11-02 |
 | 4 | [Median of Two Sorted Arrays](4-median-of-two-sorted-arrays/) | Hard | 2026-11-02 |
 | 1768 | [Merge Strings Alternately](1768-merge-strings-alternately/) | Easy | 2026-11-02 |
 | 9 | [Palindrome Number](9-palindrome-number/) | Easy | 2026-11-02 |
@@ -31,5 +32,5 @@ Solved: 27 (Easy: 11, Medium: 14, Hard: 2)
 | 1 | [Two Sum](1-two-sum/) | Easy | 2026-11-02 |
 | 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-11-02 |
 | 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-11-02 |
-| 1679 | [Max Number of K-Sum Pairs](1679-max-number-of-k-sum-pairs/) | Medium | 2026-11-02 |
+| 1207 | [Unique Number of Occurrences](1207-unique-number-of-occurrences/) | Easy | 2026-11-02 |
 <!-- LEETHUB:TABLE:END -->
