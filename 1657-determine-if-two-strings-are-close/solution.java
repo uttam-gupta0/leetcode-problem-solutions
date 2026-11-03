@@ -1,31 +1,35 @@
-// 11 ms | 47.2 MB
+// 72 ms | 47.5 MB
 class Solution {
     public boolean closeStrings(String word1, String word2) {
-        if (word1.length() != word2.length()) {
+       if (word1.length() != word2.length()) {
             return false;
         }
-int[] freq1 = new int[26];
-        int[] freq2 = new int[26];
 
+        HashMap<Character, Integer> map1 = new HashMap<>();
+        HashMap<Character, Integer> map2 = new HashMap<>();
+
+        // Count frequencies of word1
         for (char ch : word1.toCharArray()) {
-            freq1[ch - 'a']++;
+            map1.put(ch, map1.getOrDefault(ch, 0) + 1);
         }
 
+        // Count frequencies of word2
         for (char ch : word2.toCharArray()) {
-            freq2[ch - 'a']++;
+            map2.put(ch, map2.getOrDefault(ch, 0) + 1);
         }
 
-        // Check whether both strings have the same characters
-        for (int i = 0; i < 26; i++) {
-            if ((freq1[i] == 0) != (freq2[i] == 0)) {
-                return false;
-            }
+        // Check whether both strings have the same unique characters
+        if (!map1.keySet().equals(map2.keySet())) {
+            return false;
         }
 
-        // Sort frequency arrays
-        Arrays.sort(freq1);
-        Arrays.sort(freq2);
+        // Compare frequency distributions
+        ArrayList<Integer> list1 = new ArrayList<>(map1.values());
+        ArrayList<Integer> list2 = new ArrayList<>(map2.values());
 
-        return Arrays.equals(freq1, freq2);
+        Collections.sort(list1);
+        Collections.sort(list2);
+
+        return list1.equals(list2);
     }
 }
