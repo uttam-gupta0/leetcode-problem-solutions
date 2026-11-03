@@ -13,6 +13,7 @@ Solved: 29 (Easy: 12, Medium: 15, Hard: 2)
 | 11 | [Container With Most Water](11-container-with-most-water/) | Medium | 2026-11-03 |
 | 2824 | [Count Pairs Whose Sum is Less than Target](2824-count-pairs-whose-sum-is-less-than-target/) | Easy | 2026-11-03 |
 | 4045 | [Count Robot Groups](4045-count-robot-groups/) | Medium | 2026-11-03 |
+| 1657 | [Determine if Two Strings Are Close](1657-determine-if-two-strings-are-close/) | Medium | 2026-11-03 |
 | 442 | [Find All Duplicates in an Array](442-find-all-duplicates-in-an-array/) | Medium | 2026-11-03 |
 | 1732 | [Find the Highest Altitude](1732-find-the-highest-altitude/) | Easy | 2026-11-03 |
 | 41 | [First Missing Positive](41-first-missing-positive/) | Hard | 2026-11-03 |
@@ -33,5 +34,4 @@ Solved: 29 (Easy: 12, Medium: 15, Hard: 2)
 | 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-11-03 |
 | 1207 | [Unique Number of Occurrences](1207-unique-number-of-occurrences/) | Easy | 2026-11-03 |
 | 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-11-03 |
-| 1657 | [Determine if Two Strings Are Close](1657-determine-if-two-strings-are-close/) | Medium | 2026-11-03 |
 <!-- LEETHUB:TABLE:END -->
