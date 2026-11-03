@@ -1,7 +1,7 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 29 (Easy: 12, Medium: 15, Hard: 2)
+Solved: 30 (Easy: 12, Medium: 16, Hard: 2)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
@@ -34,4 +34,5 @@ Solved: 29 (Easy: 12, Medium: 15, Hard: 2)
 | 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-11-03 |
 | 1207 | [Unique Number of Occurrences](1207-unique-number-of-occurrences/) | Easy | 2026-11-03 |
 | 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-11-03 |
+| 2352 | [Equal Row and Column Pairs](2352-equal-row-and-column-pairs/) | Medium | 2026-11-03 |
 <!-- LEETHUB:TABLE:END -->
