@@ -1,9 +1,8 @@
-// 10 ms | 53.1 MB
+// 10 ms | 53 MB
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int n = text1.length();
         int m = text2.length();
-        int count = 0;
 
         char[] c = text1.toCharArray();
         char[] c1 = text2.toCharArray();
