@@ -1,7 +1,7 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 31 (Easy: 12, Medium: 17, Hard: 2)
+Solved: 32 (Easy: 12, Medium: 18, Hard: 2)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
@@ -36,4 +36,5 @@ Solved: 31 (Easy: 12, Medium: 17, Hard: 2)
 | 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-11-09 |
 | 1207 | [Unique Number of Occurrences](1207-unique-number-of-occurrences/) | Easy | 2026-11-09 |
 | 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-11-09 |
+| 1143 | [Longest Common Subsequence](1143-longest-common-subsequence/) | Medium | 2026-11-09 |
 <!-- LEETHUB:TABLE:END -->
