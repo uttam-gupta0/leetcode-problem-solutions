@@ -1,4 +1,4 @@
-// 18 ms | 43.2 MB
+// 17 ms | 42.8 MB
 
 class Solution {
     public String longestPalindrome(String s) {
