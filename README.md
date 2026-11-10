@@ -1,40 +1,41 @@
 # Solutions
 
 <!-- LEETHUB:TABLE:START -->
-Solved: 32 (Easy: 12, Medium: 18, Hard: 2)
+Solved: 33 (Easy: 12, Medium: 18, Hard: 3)
 
 | # | Problem | Difficulty | Solved |
 |---|---|---|---|
-| 15 | [3Sum](15-3sum/) | Medium | 2026-11-09 |
-| 16 | [3Sum Closest](16-3sum-closest/) | Medium | 2026-11-09 |
-| 18 | [4Sum](18-4sum/) | Medium | 2026-11-09 |
-| 2 | [Add Two Numbers](2-add-two-numbers/) | Medium | 2026-11-09 |
-| 2109 | [Adding Spaces to a String](2109-adding-spaces-to-a-string/) | Medium | 2026-11-09 |
-| 11 | [Container With Most Water](11-container-with-most-water/) | Medium | 2026-11-09 |
-| 2824 | [Count Pairs Whose Sum is Less than Target](2824-count-pairs-whose-sum-is-less-than-target/) | Easy | 2026-11-09 |
-| 4045 | [Count Robot Groups](4045-count-robot-groups/) | Medium | 2026-11-09 |
-| 1657 | [Determine if Two Strings Are Close](1657-determine-if-two-strings-are-close/) | Medium | 2026-11-09 |
-| 2352 | [Equal Row and Column Pairs](2352-equal-row-and-column-pairs/) | Medium | 2026-11-09 |
-| 442 | [Find All Duplicates in an Array](442-find-all-duplicates-in-an-array/) | Medium | 2026-11-09 |
-| 1732 | [Find the Highest Altitude](1732-find-the-highest-altitude/) | Easy | 2026-11-09 |
-| 41 | [First Missing Positive](41-first-missing-positive/) | Hard | 2026-11-09 |
-| 349 | [Intersection of Two Arrays](349-intersection-of-two-arrays/) | Easy | 2026-11-09 |
-| 392 | [Is Subsequence](392-is-subsequence/) | Easy | 2026-11-09 |
-| 1143 | [Longest Common Subsequence](1143-longest-common-subsequence/) | Medium | 2026-11-09 |
-| 5 | [Longest Palindromic Substring](5-longest-palindromic-substring/) | Medium | 2026-11-09 |
-| 1679 | [Max Number of K-Sum Pairs](1679-max-number-of-k-sum-pairs/) | Medium | 2026-11-09 |
-| 4 | [Median of Two Sorted Arrays](4-median-of-two-sorted-arrays/) | Hard | 2026-11-09 |
-| 1768 | [Merge Strings Alternately](1768-merge-strings-alternately/) | Easy | 2026-11-09 |
-| 9 | [Palindrome Number](9-palindrome-number/) | Easy | 2026-11-09 |
-| 231 | [Power of Two](231-power-of-two/) | Easy | 2026-11-09 |
-| 238 | [Product of Array Except Self](238-product-of-array-except-self/) | Medium | 2026-11-09 |
-| 26 | [Remove Duplicates from Sorted Array](26-remove-duplicates-from-sorted-array/) | Easy | 2026-11-09 |
-| 7 | [Reverse Integer](7-reverse-integer/) | Medium | 2026-11-09 |
-| 148 | [Sort List](148-sort-list/) | Medium | 2026-11-09 |
-| 977 | [Squares of a Sorted Array](977-squares-of-a-sorted-array/) | Easy | 2026-11-09 |
-| 443 | [String Compression](443-string-compression/) | Medium | 2026-11-09 |
-| 1 | [Two Sum](1-two-sum/) | Easy | 2026-11-09 |
-| 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-11-09 |
-| 1207 | [Unique Number of Occurrences](1207-unique-number-of-occurrences/) | Easy | 2026-11-09 |
-| 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-11-09 |
+| 15 | [3Sum](15-3sum/) | Medium | 2026-11-10 |
+| 16 | [3Sum Closest](16-3sum-closest/) | Medium | 2026-11-10 |
+| 18 | [4Sum](18-4sum/) | Medium | 2026-11-10 |
+| 2 | [Add Two Numbers](2-add-two-numbers/) | Medium | 2026-11-10 |
+| 2109 | [Adding Spaces to a String](2109-adding-spaces-to-a-string/) | Medium | 2026-11-10 |
+| 11 | [Container With Most Water](11-container-with-most-water/) | Medium | 2026-11-10 |
+| 2824 | [Count Pairs Whose Sum is Less than Target](2824-count-pairs-whose-sum-is-less-than-target/) | Easy | 2026-11-10 |
+| 4045 | [Count Robot Groups](4045-count-robot-groups/) | Medium | 2026-11-10 |
+| 1657 | [Determine if Two Strings Are Close](1657-determine-if-two-strings-are-close/) | Medium | 2026-11-10 |
+| 2352 | [Equal Row and Column Pairs](2352-equal-row-and-column-pairs/) | Medium | 2026-11-10 |
+| 442 | [Find All Duplicates in an Array](442-find-all-duplicates-in-an-array/) | Medium | 2026-11-10 |
+| 1732 | [Find the Highest Altitude](1732-find-the-highest-altitude/) | Easy | 2026-11-10 |
+| 41 | [First Missing Positive](41-first-missing-positive/) | Hard | 2026-11-10 |
+| 349 | [Intersection of Two Arrays](349-intersection-of-two-arrays/) | Easy | 2026-11-10 |
+| 392 | [Is Subsequence](392-is-subsequence/) | Easy | 2026-11-10 |
+| 1143 | [Longest Common Subsequence](1143-longest-common-subsequence/) | Medium | 2026-11-10 |
+| 5 | [Longest Palindromic Substring](5-longest-palindromic-substring/) | Medium | 2026-11-10 |
+| 1679 | [Max Number of K-Sum Pairs](1679-max-number-of-k-sum-pairs/) | Medium | 2026-11-10 |
+| 4 | [Median of Two Sorted Arrays](4-median-of-two-sorted-arrays/) | Hard | 2026-11-10 |
+| 1768 | [Merge Strings Alternately](1768-merge-strings-alternately/) | Easy | 2026-11-10 |
+| 9 | [Palindrome Number](9-palindrome-number/) | Easy | 2026-11-10 |
+| 231 | [Power of Two](231-power-of-two/) | Easy | 2026-11-10 |
+| 238 | [Product of Array Except Self](238-product-of-array-except-self/) | Medium | 2026-11-10 |
+| 26 | [Remove Duplicates from Sorted Array](26-remove-duplicates-from-sorted-array/) | Easy | 2026-11-10 |
+| 7 | [Reverse Integer](7-reverse-integer/) | Medium | 2026-11-10 |
+| 148 | [Sort List](148-sort-list/) | Medium | 2026-11-10 |
+| 977 | [Squares of a Sorted Array](977-squares-of-a-sorted-array/) | Easy | 2026-11-10 |
+| 443 | [String Compression](443-string-compression/) | Medium | 2026-11-10 |
+| 1 | [Two Sum](1-two-sum/) | Easy | 2026-11-10 |
+| 167 | [Two Sum II - Input Array Is Sorted](167-two-sum-ii-input-array-is-sorted/) | Medium | 2026-11-10 |
+| 1207 | [Unique Number of Occurrences](1207-unique-number-of-occurrences/) | Easy | 2026-11-10 |
+| 680 | [Valid Palindrome II](680-valid-palindrome-ii/) | Easy | 2026-11-10 |
+| 76 | [Minimum Window Substring](76-minimum-window-substring/) | Hard | 2026-11-10 |
 <!-- LEETHUB:TABLE:END -->
